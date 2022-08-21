@@ -22,8 +22,8 @@ public class ProductController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void createProduct(@RequestBody ProductDto productDto) {
-        productService.saveProduct(productDto);
+    public void save(@RequestBody ProductDto productDto) {
+        productService.save(productDto);
     }
 
     @GetMapping("/getAll")

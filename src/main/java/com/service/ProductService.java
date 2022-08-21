@@ -19,7 +19,7 @@ public class ProductService {
         this.productRepository = productRepository;
     }
 
-    public void saveProduct(ProductDto productDto) {
+    public void save(ProductDto productDto) {
         Product product = Product.builder()
                 .name(productDto.getName())
                 .description(productDto.getDescription())
