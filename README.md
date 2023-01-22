@@ -21,8 +21,8 @@ application.properties.
 
 2.2.1 For application.properties you should set the value like:
 
-spring.cloud.config.uri=${Value}
-management.endpoints.web.exposure.include=${Value}
-spring.application.name=${Value}
-server.port=${Value}
-eureka.instance.instance-id=${Value}
+* spring.cloud.config.uri=${Value}
+* management.endpoints.web.exposure.include=${Value}
+* spring.application.name=${Value}
+* server.port=${Value}
+* eureka.instance.instance-id=${Value}
